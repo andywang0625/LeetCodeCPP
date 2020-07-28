@@ -1,9 +1,12 @@
 /*
  * @Author: Kanade
  * @Date: 2020-07-26 20:42:51
- * @LastEditTime: 2020-07-26 20:44:55
+ * @LastEditTime: 2020-07-27 23:40:12
  * @Description: 
  */ 
+#include<iostream>
+#include<string>
+using namespace std;
 class Solution {
 public:
     string convert(string s, int numRows) {
