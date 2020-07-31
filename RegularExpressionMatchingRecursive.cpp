@@ -1,10 +1,12 @@
 /*
  * @Author: Kanade
  * @Date: 2020-07-29 22:47:53
- * @LastEditTime: 2020-07-29 22:48:33
+ * @LastEditTime: 2020-07-30 22:33:11
  * @Description: Time Limit Exceeded, so DP is required.
  */ 
-
+#include<string>
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -26,3 +28,9 @@ public:
             return (s.length() && (p[0] == s[0] || p[0] == '.') ) && isMatch(s.substr(1), p.substr(1));
     }
 };
+
+int main(){
+    string s;
+    cin>>s;
+    cout<<Solution().isMatch(s);
+}
