@@ -1,10 +1,12 @@
 /*
  * @Author: Kanade
  * @Date: 2020-08-01 22:48:48
- * @LastEditTime: 2020-08-01 22:49:06
+ * @LastEditTime: 2020-08-02 18:13:59
  * @Description: Time Limit Exceeded
  */ 
-
+#include<vector>
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -18,3 +20,8 @@ public:
         return max;
     }
 };
+int main(){
+    vector<int> hei={};
+    cout<<Solution().maxArea(hei);
+    return 0;
+}
