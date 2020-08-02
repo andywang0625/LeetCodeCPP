@@ -1,10 +1,11 @@
 /*
  * @Author: Kanade
  * @Date: 2020-07-27 21:13:21
- * @LastEditTime: 2020-07-27 21:14:08
+ * @LastEditTime: 2020-08-02 18:19:00
  * @Description: 
  */ 
-
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     int reverse(int x) {
