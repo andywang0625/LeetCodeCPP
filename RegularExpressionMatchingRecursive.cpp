@@ -1,7 +1,7 @@
 /*
  * @Author: Kanade
  * @Date: 2020-07-29 22:47:53
- * @LastEditTime: 2020-07-30 22:33:11
+ * @LastEditTime: 2020-08-02 18:16:06
  * @Description: Time Limit Exceeded, so DP is required.
  */ 
 #include<string>
@@ -30,7 +30,8 @@ public:
 };
 
 int main(){
-    string s;
+    string s, p;
     cin>>s;
-    cout<<Solution().isMatch(s);
+    cin>>p;
+    cout<<Solution().isMatch(s, p);
 }
