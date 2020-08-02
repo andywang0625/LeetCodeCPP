@@ -1,3 +1,9 @@
+/*
+ * @Author: Kanade
+ * @Date: 2020-07-24 01:45:18
+ * @LastEditTime: 2020-08-02 18:17:24
+ * @Description: 
+ */ 
 #include "string"
 #include "iostream"
 #include <cmath>
@@ -9,7 +15,7 @@ public:
     int lengthOfLongestSubstring(string s) {
         int n = s.length();
         int ans = 0, p=0, psub=0;
-        string sub[10000]="";
+        string sub[10000];
         while(s[p] != '\0'){
             for(int z=p; z<n;z++){
                 if(llUnique(sub[psub], s[z])){
