@@ -1,9 +1,12 @@
 /*
  * @Author: Kanade
  * @Date: 2020-08-05 23:54:43
- * @LastEditTime: 2020-08-05 23:54:50
+ * @LastEditTime: 2020-08-06 00:00:07
  * @Description: 
  */
+#include<iostream>
+#include<string>
+using namespace std;
 class Solution {
 public:
     int romanToInt(string s) {
@@ -27,3 +30,10 @@ public:
         return sum;
     }
 };
+
+int main(){
+    string r;
+    cin>>r;
+    cout<<Solution().romanToInt(r);
+    return 0;
+}
